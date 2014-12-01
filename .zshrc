@@ -22,3 +22,10 @@ alias desk='cd ~/Desktop && clear'
 alias ll='ls -lah'
 alias man="man -a"
 alias rd='rm -rf'
+
+alias gb='git branch '
+alias gl="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(cyan)%s%C(reset) %C(cyan)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+alias go='git checkout '
+alias gp='git pull && git push'
+alias gs='git status '
+alias sss='eval "$(ssh-agent -s)" && ssh-add ~/.ssh/github && ssh -T git@github.com'
