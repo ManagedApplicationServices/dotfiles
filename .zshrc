@@ -14,6 +14,9 @@ export LSCOLORS="gafxcxdxbxegedabagacad"
 export LC_CTYPE="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
+
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
